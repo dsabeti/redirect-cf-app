@@ -4,3 +4,5 @@ applications:
   memory: 64M
   instances: 1
   buildpack: staticfile_buildpack
+  env:
+    REDIRECT_URL: https://release-integration.ci.cf-app.com/teams/main/pipelines/cf-release?groups=cf-release
